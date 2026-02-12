@@ -1,4 +1,26 @@
-node_modules
-echo .next/ >> .gitignore
-echo node_modules/ >> .gitignore
-echo .env.local >> .gitignore
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Debug
+scripts/check_balance.cjs
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
