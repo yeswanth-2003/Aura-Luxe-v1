@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Luxe | Fine Jewellery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF7; /* Ivory Beige */
+            color: #1a1a1a;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-luxury {
+            background-color: #FDFBF7;
+        }
+        .text-gold {
+            color: #C5A059;
+        }
+        .bg-gold {
+            background-color: #C5A059;
+        }
+        .border-beige {
+            border-color: #E8E2D9;
+        }
+        .btn-gold {
+            background-color: #C5A059;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            background-color: #AF8B45;
+            box-shadow: 0 10px 15px -3px rgba(197, 160, 89, 0.2);
+        }
+        /* Remove default blue focus rings for a luxury feel */
+        *:focus {
+            outline: none !important;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "mongoose": "https://esm.sh/mongoose@^9.2.0",
+    "next/": "https://esm.sh/next@^16.1.6/",
+    "next": "https://esm.sh/next@^16.1.6"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-luxury">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
